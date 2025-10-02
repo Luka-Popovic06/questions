@@ -45,3 +45,28 @@ body {
   background-color: #164e63;
   padding: 10px;
 }
+.icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  color: #fff;
+}
+.list-element {
+  padding: 1rem 1.5rem;
+  border: 2px solid #e2e8f0;
+  margin-bottom: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+}
+.answer {
+  color: #64748b;
+  line-height: 1.7;
+  margin-top: 1rem;
+  font-size: 16px;
+  text-align: start;
+}
+.list-element.expanded {
+  grid-row: span 2; /* ovo mu kaže da zauzme više reda */
+}
