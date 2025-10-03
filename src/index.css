@@ -8,6 +8,7 @@ body {
     Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   display: block;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 #root {
   background-color: #fff;
